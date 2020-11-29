@@ -1,19 +1,39 @@
 <!DOCTYPE html>
 <style>
-    img.logo {
+img.logo {
         display: block;
         margin-left: auto;
         margin-right:auto;
         width: 50%;
     }
-    input.searchbar {
+input.searchbar {
         display: block;
         margin-left: auto;
         margin-right:auto;
         width: 70%;
     }
+ul {
+    position:fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    //background-color: black;
+}
+li {
+    float: right;
+}
 
+li a {
+    display: inline-block;
+    padding: 14px 16px;
+    //background-color:white;
+    text-align: justify;
+    text-decoration: none;
 
+}
 
 </style>
 <head>
@@ -21,7 +41,7 @@
 </head>
 <body>
 <ul>
-    <li><a href="#gmail.asp">Gmail</li>
+        <li><a href="#gmail.asp">Gmail</li>
         <li><a href="#Images.asp">Images</a></li>
         <li><a href="#Apps.asp">Apps</a></li>
 
