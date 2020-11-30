@@ -12,6 +12,28 @@
             background: black;
             padding: 20px;
         }
+        ul.header {
+    position:fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    //background-color: black;
+}
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    padding: 10px;
+    //background-color:white;
+    text-align: justify;
+    text-decoration: none;
+
+}
         nav {
             background: cadetblue;
         }
@@ -20,7 +42,7 @@
             padding: 40px 0px 30px 0px;
         }
         section.2 {
-            background: white;
+            background: blue;
             padding: 0px;
         }
         img.logo {
@@ -61,7 +83,12 @@
 
 <body>
     <header>
-header
+        <ul class="header">
+            <li><a href="#gmail.asp">Gmail</li>
+            <li><a href="#Images.asp">Images</a></li>
+            <li><a href="#Apps.asp">Apps</a></li>
+    
+    </ul>
 
 
     </header>
@@ -83,6 +110,12 @@ nav bar
     <section class="2">
         <input class="searchbar" type="search" name=?> 
 
+
+    </section>
+
+    <section>
+
+search buttons
 
     </section>
 

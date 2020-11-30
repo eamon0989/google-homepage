@@ -1,0 +1,100 @@
+
+<style>
+    
+header {
+    border-style: solid;
+    padding: 1em;
+} 
+
+nav {
+    //border-style: solid;
+    padding: 1em;
+}
+
+div {
+    //border-style: solid;
+}
+div.logo {
+    padding: 2em;
+}
+div.searchbarinput {
+    text-align: center;
+}
+
+img.logo {
+        display:block;
+        margin-left: auto;
+        margin-right:auto;
+        width: auto;
+        max-width: 100%;
+        padding-top: 5em;
+        padding-bottom: 2em;       
+    }
+input.searchbar {
+        margin-left: auto;
+        margin-right:auto;
+        padding: 0.3em;
+        width: 75%;
+        height: 40px;
+        margin: 3em
+        //width: 80%;
+        max-width: 600px;
+        margin-top: 1em;
+        border-radius: 30px;
+        border: 1.5px #D3D3D3 solid;
+    }
+
+input.searchbar.hover {
+        box-shadow: 0 0 11px rgba(33,33,33,.2); 
+      }
+ul.nav {
+    position:fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    //background-color: black;
+}
+ul.footer {
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    //background-color: black;
+}
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    padding: 14px 16px;
+    //background-color:white;
+    text-align: justify;
+    text-decoration: none;
+}
+div.whitespace {
+    padding: 4em;   
+}
+div.seachbardiv {
+    padding: 4em;
+}
+button {
+    margin-left: auto%;
+    margin-right: auto%;
+    margin-top: 1em;
+    display: inline-block;    
+}
+div.container {
+    text-align: center;
+}
+footer {
+    background-color: gray;
+}
+
+</style>
