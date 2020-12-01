@@ -1,11 +1,16 @@
-
-<style>
-    
 header {
-    border-style: solid;
+    //border-style: solid;
     padding: 1em;
 } 
-
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body {
+    display:flex;
+    flex-direction: column;
+}
 nav {
     //border-style: solid;
     padding: 1em;
@@ -14,13 +19,17 @@ nav {
 div {
     //border-style: solid;
 }
-div.logo {
+#middle {
     padding: 2em;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 div.searchbarinput {
     text-align: center;
 }
-
 img.logo {
         display:block;
         margin-left: auto;
@@ -34,26 +43,34 @@ input.searchbar {
         margin-left: auto;
         margin-right:auto;
         padding: 0.3em;
-        width: 75%;
+        width: 600px;
         height: 40px;
-        margin: 3em
-        //width: 80%;
         max-width: 600px;
-        margin-top: 1em;
+        margin-top: .5em;
         border-radius: 30px;
         border: 1.5px #D3D3D3 solid;
+        position: relative;
     }
 
-input.searchbar.hover {
-        box-shadow: 0 0 11px rgba(33,33,33,.2); 
+#lupa {
+    position: relative;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input.searchbar:hover {
+        box-shadow: 0 0 3px rgba(22, 11, 11, 0.281); 
       }
 ul.nav {
     position:fixed;
     top: 0;
-    width: 100%;
+    width: 94%;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    //padding-right: 1em;
     overflow: hidden;
     //background-color: black;
 }
@@ -65,19 +82,39 @@ ul.footer {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    //background-color: black;
+    background-color: #e0e0de;
 }
 li {
-    float: right;
+    float: left;
 }
+
+li.nav {
+    float: right;
+}right
+li.footer {
+    float: inline-start;
+}
+
 
 li a {
     display: inline-block;
-    padding: 14px 16px;
-    //background-color:white;
-    text-align: justify;
+    padding: 16px;
+    background-color:white;
+    text-align: center;
     text-decoration: none;
 }
+li a:hover {
+    text-decoration: underline;
+}
+a.footer {
+    display: inline-block;
+    padding: 16px;
+    background-color: #e0e0de;
+    text-align: center;
+    text-decoration: none;
+    color: #636362;
+}
+
 div.whitespace {
     padding: 4em;   
 }
@@ -95,6 +132,5 @@ div.container {
 }
 footer {
     background-color: gray;
+    margin: 0px;
 }
-
-</style>
